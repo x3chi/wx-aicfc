@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+}
+.section {
+  margin-bottom: 15px;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+}
