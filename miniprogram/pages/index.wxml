@@ -1,0 +1,57 @@
+<view class="container">
+  <form bindsubmit="formSubmit">
+    <view class="section">
+      <text>建设期（年）：</text>
+      <input name="constructionYears" type="number" value="1"/>
+    </view>
+    <view class="section">
+      <text>运营期（年）：</text>
+      <input name="operationYears" type="number" value="1"/>
+    </view>
+    <view class="section">
+      <text>贷款比例（%）：</text>
+      <input name="loanRatio" type="number" value="100"/>
+    </view>
+    <view class="section">
+      <text>贷款年化收益率（%）：</text>
+      <input name="loanRate" type="number" value="3.00"/>
+    </view>
+    <view class="section">
+      <text>服务器数量：</text>
+      <input name="serverCount" type="number" value="1"/>
+    </view>
+    <view class="section">
+      <text>服务器单价（万元）：</text>
+      <input name="serverUnitPrice" type="number" value="0.00"/>
+    </view>
+    <view class="section">
+      <text>租金（万元）：</text>
+      <input name="rent" type="number" value="0.00"/>
+    </view>
+    <view class="section">
+      <text>设备租用率（%）：</text>
+      <input name="equipmentRentalRate" type="number" value="100"/>
+    </view>
+    <view class="section">
+      <text>设备期末残值率（%）：</text>
+      <input name="equipmentResidualRate" type="number" value="0"/>
+    </view>
+    <view class="section">
+      <text>服务器机房及电费月单价（万元）：</text>
+      <input name="serverRoomCost" type="number" value="1.00"/>
+    </view>
+    <view class="section">
+      <text>网费（万元）：</text>
+      <input name="internetFee" type="number" value="0.00"/>
+    </view>
+    <view class="section">
+      <text>年运维费服务器单价（万元）：</text>
+      <input name="maintenanceCostPerServer" type="number" value="8.00"/>
+    </view>
+    <view class="section">
+      <text>附加税税率（%）：</text>
+      <input name="additionalTaxRate" type="number" value="0"/>
+    </view>
+    <button formType="submit">计算</button>
+  </form>
+</view>
