@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def ds(svr_data):
     client = OpenAI(
-        api_key="sk-4572ecf05c5c46c29218838051f8be2d",  # 如何获取API Key：https://help.aliyun.com/zh/model-studio/developer-reference/get-api-key
+        api_key="api key",  # 如何获取API Key：https://help.aliyun.com/zh/model-studio/developer-reference/get-api-key
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
     )
     reasoning_content = ""  # 定义完整思考过程
