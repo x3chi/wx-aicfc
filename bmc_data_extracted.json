@@ -1,0 +1,1204 @@
+{
+    "items": [
+        {
+            "item_name": "Get IPMI sensors",
+            "history": []
+        },
+        {
+            "item_name": "ACPI_PWR",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "S0/G0 working"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "S0/G0 working"
+                }
+            ]
+        },
+        {
+            "item_name": "BIOS_Boot_Up",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "state asserted"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "state asserted"
+                }
+            ]
+        },
+        {
+            "item_name": "BMC_Boot_Up",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "initiated by power up"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "initiated by power up"
+                }
+            ]
+        },
+        {
+            "item_name": "BMC_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_C0D0",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "processor presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "processor presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_C0D0",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "processor presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "processor presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU_Config",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "Disk0_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk10_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "Disk11_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "Disk1_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk2_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk3_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk4_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk5_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk6_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk7_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk8_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "Disk9_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "drive presence"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "drive presence"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN0_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "FAN1_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "FAN2_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "FAN3_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "FAN_Redundant",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "MB_IERR_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "ME_FW_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PCIe_IERR_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PCIe_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "POST_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "presence detected"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "presence detected"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU_Mismatch",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PSU_Redundant",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PWR_CAP_Fail",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "PWR_On_TMOUT",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "Power_Button",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": "power button pressed"
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": "power button pressed"
+                }
+            ]
+        },
+        {
+            "item_name": "SEL_Status",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "SysRuntimeStop",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "Sys_Health",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "System_Error",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "UID_Button",
+            "history": [
+                {
+                    "time": "2025-03-27 08:15:16",
+                    "value": ""
+                },
+                {
+                    "time": "2025-03-26 08:14:18",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DDR_DIMM_T, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "36"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "37"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DDR_VDDQ1, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "1.233"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "1.233"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DDR_VDDQ2, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "1.233"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "1.233"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DDR_VPP1, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "2.556"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "2.556"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DDR_VPP2, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:28:19",
+                    "value": "2.556"
+                },
+                {
+                    "time": "2025-03-27 15:27:16",
+                    "value": "2.568"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_DTS, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "55"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "54"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "37"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "39"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_VCCIO, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "0.999"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "0.999"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU0_Vcore, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "1.791"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "1.782"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DDR_DIMM_T, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "37"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "38"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DDR_VDDQ1, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "1.233"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "1.233"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DDR_VDDQ2, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "1.233"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "1.233"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DDR_VPP1, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "2.544"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "2.544"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DDR_VPP2, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "2.556"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "2.556"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_DTS, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "50"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "49"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "42"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "43"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_VCCIO, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "0.999"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "0.999"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU1_Vcore, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:49:17",
+                    "value": "1.782"
+                },
+                {
+                    "time": "2025-03-27 15:48:19",
+                    "value": "1.791"
+                }
+            ]
+        },
+        {
+            "item_name": "CPU_Power, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "140"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "130"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN0_F_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "6240"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "6480"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN0_R_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "6240"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "6480"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN1_F_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "6240"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "6480"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN1_R_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "6048"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "6336"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN2_F_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "4608"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "4992"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN2_R_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "4512"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "4992"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN3_F_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "4512"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "4992"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN3_R_Speed, RPM/min",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "4512"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "4992"
+                }
+            ]
+        },
+        {
+            "item_name": "FAN_Power, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "120"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "156"
+                }
+            ]
+        },
+        {
+            "item_name": "HDD_MAX_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "38"
+                },
+                {
+                    "time": "2025-03-27 15:57:17",
+                    "value": "37"
+                }
+            ]
+        },
+        {
+            "item_name": "Inlet_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "25"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "27"
+                }
+            ]
+        },
+        {
+            "item_name": "Memory_Power, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:31:17",
+                    "value": "0"
+                },
+                {
+                    "time": "2025-03-27 15:30:16",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "item_name": "Outlet_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:55:18",
+                    "value": "39"
+                },
+                {
+                    "time": "2025-03-27 15:50:16",
+                    "value": "38"
+                }
+            ]
+        },
+        {
+            "item_name": "PCH_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "43"
+                },
+                {
+                    "time": "2025-03-27 15:56:16",
+                    "value": "42"
+                }
+            ]
+        },
+        {
+            "item_name": "PCIe_NIC_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "39"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "40"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_PIN, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "150"
+                },
+                {
+                    "time": "2025-03-27 15:57:17",
+                    "value": "156"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_POUT, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "144"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "138"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "31"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "32"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_VIN, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "217"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "217"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU0_VOUT, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "12.18"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "12.18"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_PIN, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "138"
+                },
+                {
+                    "time": "2025-03-27 15:57:17",
+                    "value": "144"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_POUT, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "126"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "138"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_Temp, C",
+            "history": [
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "30"
+                },
+                {
+                    "time": "2025-03-27 15:55:18",
+                    "value": "31"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_VIN, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:55:18",
+                    "value": "218"
+                },
+                {
+                    "time": "2025-03-27 15:54:20",
+                    "value": "217"
+                }
+            ]
+        },
+        {
+            "item_name": "PSU1_VOUT, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "12.18"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "12.18"
+                }
+            ]
+        },
+        {
+            "item_name": "RTC_Battery, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "3.12"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "3.12"
+                }
+            ]
+        },
+        {
+            "item_name": "SYS_12V, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:19:19",
+                    "value": "12.18"
+                },
+                {
+                    "time": "2025-03-27 14:18:18",
+                    "value": "12.18"
+                }
+            ]
+        },
+        {
+            "item_name": "SYS_3V3, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "3.36"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "3.36"
+                }
+            ]
+        },
+        {
+            "item_name": "SYS_5V, volts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:45:17",
+                    "value": "5.04"
+                },
+                {
+                    "time": "2025-03-27 14:45:17",
+                    "value": "5.04"
+                }
+            ]
+        },
+        {
+            "item_name": "Total_Power, watts",
+            "history": [
+                {
+                    "time": "2025-03-27 15:59:16",
+                    "value": "288"
+                },
+                {
+                    "time": "2025-03-27 15:58:18",
+                    "value": "300"
+                }
+            ]
+        }
+    ]
+}
