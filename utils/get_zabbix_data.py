@@ -52,6 +52,29 @@ def get_hosts(auth_token):
         print("获取主机信息失败，response为：", response_data)
         return None
 
+# 获取主机的 IP 地址
+def get_host_ip(auth_token, host_id):
+    payload = {
+        "jsonrpc": "2.0",
+        "method": "hostinterface.get",
+        "params": {
+            "output": "extend",
+            "hostids": host_id
+        },
+        "id": 3
+    }
+    response = requests.post(ZABBIX_URL, json=payload, headers={"Content-Type": "application/json-rpc", "Authorization": f"Bearer {auth_token}"})
+    response_data = response.json()
+    if "result" in response_data:
+        # 提取接口信息中的 IP 地址
+        interfaces = response_data["result"]
+        for interface in interfaces:
+            if interface["main"] == "1" and interface["useip"] == "1":  # 主接口，使用 IP
+                return interface["ip"]
+        return "未知"
+    else:
+        print(f"获取主机接口失败，host_id: {host_id}，response为：", response_data)
+        return "未知"
 
 # 获取指定主机的监控项
 def get_items(auth_token, host_id):
@@ -62,7 +85,7 @@ def get_items(auth_token, host_id):
             "hostids": host_id,
             "output": ["itemid", "name", "lastvalue", "value_type"]
         },
-        "id": 3
+        "id": 4
     }
     response = requests.post(ZABBIX_URL, json=payload, headers={"Content-Type": "application/json-rpc", "Authorization": f"Bearer {auth_token}"})
     response_data = response.json()
@@ -86,7 +109,7 @@ def get_history(auth_token, item_id, time_from, time_till, item_type):
             "sortorder": "DESC",
             "time_till": time_till
         },
-        "id": 1
+        "id": 5
     }
     response = requests.post(ZABBIX_URL, json=payload, headers={"Content-Type": "application/json-rpc", "Authorization": f"Bearer {auth_token}"})
     response_data = response.json()
@@ -105,6 +128,7 @@ def collect_host_data(auth_token, host):
     host_data = {
         "host_name": host['name'],
         "host_status": host['status'],
+        "host_ip": get_host_ip(auth_token, host['hostid']),  # 获取主机 IP
         "items": []
     }
 
