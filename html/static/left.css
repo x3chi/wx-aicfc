@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.nav-header {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 8px;
+}
+
+.site-list {
+  padding: 12px 16px;
+  padding-left: 40px; /* 原16px + 36px 向右偏移 */
+}
+
+
+.site-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+  line-height: 1.6; /* 增加行距 */
+  transition: all 0.3s ease;
+}
+
+.site-item .site-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  filter: invert(100%) brightness(1.2);
+  transition: filter 0.3s ease;
+}
+
+.site-item .site-name {
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.site-item.selected .site-icon {
+  filter: invert(51%) sepia(98%) saturate(745%) hue-rotate(1deg) brightness(102%) contrast(101%);
+}
+
+.site-item.selected .site-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.powered-by {
+  font-size: 12px;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 8px;
+  padding-top: 10px;
+}
+
+.powered-by hr {
+  border: none;
+  border-top: 0.5px solid #555;
+  margin: 0 16px 6px;
+}
+
+.powered-by a {
+  color: #aaa;
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>中栏</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: white;
+      background: transparent;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <h1 id="site-title">广州实验室智算集群</h1>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('message', (event) => {
+      if (event.data.type === 'selectSite') {
+        document.getElementById('site-title').textContent = event.data.name;
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>左下导航栏</title>
+  <link rel="stylesheet" href="static/left.css" />
+</head>
+<body>
+  <div class="nav-header">图灵一体化智算网</div>
+  <div class="site-list">
+    <div class="site-item selected" onclick="selectSite(this, '广州实验室智算集群')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">广州实验室智算集群</span>
+    </div>
+    <div class="site-item" onclick="selectSite(this, '广州实验室数据中心')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">广州实验室数据中心</span>
+    </div>
+    <div class="site-item" onclick="selectSite(this, '深圳移动智算集群')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">深圳移动智算集群</span>
+    </div>
+    <div class="site-item" onclick="selectSite(this, '平安科技智算集群')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">平安科技智算集群</span>
+    </div>
+    <div class="site-item" onclick="selectSite(this, '博时基金智算集群')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">博时基金智算集群</span>
+    </div>
+    <div class="site-item" onclick="selectSite(this, '四川联通智算集群')">
+      <img src="images/siteicon.svg" class="site-icon" />
+      <span class="site-name">四川联通智算集群</span>
+    </div>
+  </div>
+
+  <script>
+    function selectSite(el, name) {
+      // 清除之前的选中状态
+      document.querySelectorAll('.site-item').forEach(item => {
+        item.classList.remove('selected');
+        const icon = item.querySelector('.site-icon');
+        icon.style.filter = 'grayscale(100%) brightness(1.2)';
+        item.querySelector('.site-name').style.fontWeight = 'normal';
+        item.querySelector('.site-name').style.fontSize = '16px';
+      });
+
+      // 设置当前项为选中状态
+      el.classList.add('selected');
+      const icon = el.querySelector('.site-icon');
+      icon.style.filter = 'invert(47%) sepia(100%) saturate(667%) hue-rotate(2deg) brightness(101%) contrast(101%)';
+      el.querySelector('.site-name').style.fontWeight = 'bold';
+      el.querySelector('.site-name').style.fontSize = '18px';
+
+      // 通知 middle
+      window.parent.postMessage({ type: 'selectSite', name }, '*');
+    }
+
+    // 默认触发第一个 site
+    window.onload = () => {
+      const first = document.querySelector('.site-item');
+      if (first) {
+        first.click();
+      }
+    };
+  </script>
+</body>
+</html>

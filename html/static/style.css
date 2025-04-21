@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-width: 800px;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+body {
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* 背景：灰黑径向渐变，中心点在页面外 */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+  background: radial-gradient(circle at -30% -30%, #303841 0%, #000 100%);
+  opacity: 1;
+  filter: blur(0px);
+  transition: background 1s ease-in-out;
+}
+
+/* 主容器：三列布局 */
+.container {
+  display: flex;
+  height: 100%;
+  gap: 5px;
+}
+
+/* 左栏：上下两部分 */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* 左栏 1份宽度 */
+  gap: 5px;
+}
+
+/* 中栏和右栏：分别 3份和 2份 */
+.middle-column {
+  flex: 3;
+}
+
+.right-column {
+  flex: 2;
+}
+
+/* header：黄金比例 */
+.left-column iframe:first-child {
+  aspect-ratio: 1 / 0.618;
+}
+
+/* 剩余空间自动撑满 */
+.left-column iframe:last-child {
+  flex-grow: 1;
+}
+
+/* 所有 iframe：统一样式 */
+.container iframe,
+.left-column iframe {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.15);
+}

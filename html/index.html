@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>真实波浪背景</title>
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+
+  <!-- 页面主容器 -->
+    <div class="container">
+      <div class="left-column">
+        <iframe src="header.html" title="Header"></iframe>
+        <iframe src="left.html" title="Left"></iframe>
+      </div>
+
+      <iframe src="middle.html" class="middle-column" title="Middle"></iframe>
+      <iframe src="right.html" class="right-column" title="Right"></iframe>
+    </div>
+
+    <script>
+      window.addEventListener("message", (event) => {
+        if (event.data.type === 'selectSite') {
+          const middleFrame = document.querySelector("iframe.middle-column");
+          if (middleFrame) {
+            middleFrame.contentWindow.postMessage(event.data, "*");
+          }
+        }
+      });
+    </script>
+
+
+    <script src="static/wave.js"></script>
+</body>
+</html>

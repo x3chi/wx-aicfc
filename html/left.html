@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>左下栏容器</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      height: 100%;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .top-frame {
+      flex: 1;
+    }
+
+    .bottom-frame {
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="left-top.html" class="top-frame"></iframe>
+  <iframe src="left-bottom.html" class="bottom-frame"></iframe>
+</body>
+</html>
